@@ -31,21 +31,14 @@ CPU需要高速读取、写入数据,采用不同速度、成本的四层结构�
 
 #### 1-5.如何提高缓存的效率？
 - 评估缓存性能的指标
-  - 平均内存访问时间AMAT
-
-  <center>
-  $ AMAT = T_{hit}+MR \times MP $
-  </center>
-
+  - 平均内存访问时间AMAT  
+   $ AMAT = T_{hit}+MR \times MP $  
     - $T_{hit}$是定位缓存块到传回数据所需的时间,称为命中时间.  
     - MR(miss rate)是未命中的概率,称为失效率.
     - MP(miss penalty)是判定未命中,从内存中载入数据再上传至寄存器中所需的时间,称为失效代价.
 
- - Cache系统加速比
-  <center>
-  $ S=\dfrac{T_m}{T}=\dfrac{1}{(1-H)+H\times\dfrac{T_c}{T_m}} $
-  </center>
-
+  - Cache系统加速比  
+   $ S=\dfrac{T_m}{T}=\dfrac{1}{(1-H)+H\times\dfrac{T_c}{T_m}} $  
     - $T_m$是访问内存所需时间
     - $T_c$是访问缓存所需时间
     - $H$是命中率
