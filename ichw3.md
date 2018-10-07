@@ -11,9 +11,7 @@ CPU需要高速读取、写入数据,采用不同速度、成本的四层结构�
 #### 1-2.缓存的存储结构
 直接映射缓存由多个缓存块组成,一个缓存块中包括标签（tag）、索引（index）、标志位（flag bits）和数据,每个缓存块中包含连续内存地址的若干个存储单元.
 
-<center>
 ![image text](https://github.com/YichenNie/ichw/blob/master/CPU%E7%BC%93%E5%AD%98_00_%E7%BC%93%E5%AD%98%E6%AE%B5%E7%BB%93%E6%9E%84.png)
-<\center>
  
 #### 1-3.缓存的工作原理
 系统启动时,缓存没没有任何数据.
@@ -22,9 +20,7 @@ CPU需要高速读取、写入数据,采用不同速度、成本的四层结构�
 3. 命中后,用块内偏移读取特定数据段,送回寄存器.
 4. 未命中,则先从内存中载入相应地址的数据,然后送往寄存器.
 
-<center>
 ![image text](https://github.com/YichenNie/ichw/blob/master/CPU%E7%BC%93%E5%AD%98_01_%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B.png)
-<\center>
 
 #### 1-4.如果没有命中,如何替换缓存块？
 最理想的替换策略是替换据下次访问最晚的缓存块,然而无法真正实现.替换策略有：
