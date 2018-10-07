@@ -1,6 +1,9 @@
 # ichw3
 Assignments of Introduction to Computing B
 
+
+**需要Chrome浏览器插件[GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)才能正确显示公式.**
+
 ### 1.详述通用的高速缓存存储器结构及工作原理
 
 #### 1-1.缓存的作用
