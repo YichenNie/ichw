@@ -54,7 +54,7 @@ Assignments of Introduction to Computing B
 - 采用安全性比较好的网络浏览器，弥补系统漏洞
 - 必要时禁止上网
 
-####参考
+#### 参考
 - https://caodg.github.io/ic/slides/05.network/#71
 - https://baike.baidu.com/item/间谍软件
 - https://baike.baidu.com/item/广告软件
