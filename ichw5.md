@@ -42,7 +42,7 @@ Assignments of Introduction to Computing B
 **Adware**: 广告软件.自动显示、下载广告信息的软件. 常和合法程序绑定, 为用户所见.  
 **Backdoor**: 后门.是指在用户不知道也不允许的情况下,在被感染的系统上以隐蔽的方式运行可以对被感染的系统进行远程控制,而且用户无法通过正常的方法禁止其运行.  
 **Spyware**: 间谍软件.监视用户使用计算机, 并把收集的信息发送给第三方的软件.  
-![](https://github.com/YichenNie/ichw/blob/master/ichw5_figure_1.png)
+![](https://github.com/YichenNie/ichw/blob/master/ichw5_figure_1.2.png)
 
 #### 防范
 - 当心不明邮件, 不自动打开邮件附件
