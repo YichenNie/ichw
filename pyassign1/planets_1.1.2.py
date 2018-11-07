@@ -157,6 +157,7 @@ def main():
 
     turtles = [a, b, c, d, e, f, g, h]
 
+    # time
     text_turtle.color("Black")
     text_turtle.speed(0)
     text_turtle.shapesize(0.0000000001)
@@ -174,7 +175,7 @@ def main():
         if j % 10 == 0:
             text_turtle.color("Black")
             text_turtle.write((5 + len(str(
-                                      int((j-10)*0.040511*365.2422)
+                                      int((j-10)*0.004511*365.2422)
                                       )))*"█",
                               move=False, align="left",
                               font=("Arial", 24, "normal"))
