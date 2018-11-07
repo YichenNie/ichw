@@ -170,8 +170,11 @@ def main():
 
     j = 1
     while True:
+
         draworbital(turtles[j % 8],
                     planet_list[j % 8], j)
+
+        # time
         if j % 10 == 0:
             text_turtle.color("Black")
             text_turtle.write((5 + len(str(
