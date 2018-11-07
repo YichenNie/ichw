@@ -12,4 +12,13 @@
 
 
 ## references
-1. Jin, S. N.; Ma, Y. L. *Analytical Mechanics*
+1. Wikipedia
+  - [Halley's Comet](https://en.wikipedia.org/wiki/Halley%27s_Comet)
+  - [Sun](https://en.wikipedia.org/wiki/Sun)
+  - [Mercury](https://en.wikipedia.org/wiki/Mercury_(planet))
+  - [Venus](https://en.wikipedia.org/wiki/Venus)
+  - [Earth](https://en.wikipedia.org/wiki/Earth)
+  - [Mars](https://en.wikipedia.org/wiki/Mars)
+  - [Jupiter](https://en.wikipedia.org/wiki/Jupiter)
+  - [Saturn](https://en.wikipedia.org/wiki/Saturn)
+2. Jin, S. N.; Ma, Y. L. *Analytical Mechanics*
