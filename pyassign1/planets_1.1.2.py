@@ -114,7 +114,7 @@ def coor(x, time):
 
 def draworbital(planet, x, i):
 
-    # move to the orbital
+    # move to the orbits
     if i in range(1, 9):
         planet.ht()
         planet.goto(coor(x, i)[0],
