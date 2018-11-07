@@ -9,3 +9,7 @@
 - **Note: module scipy needed**
 ## version 1.1.2
 - Small bugs fixed
+
+
+## references
+1. Jin, S. N.; Ma, Y. L. *Analytical Mechanics*
