@@ -5,7 +5,7 @@
 - In pep8 format
 ## version 1.1
 - Consists with Kepler's laws
-- Halley Comet
+- Halley's Comet
 - **Note: module scipy needed**
 ## version 1.1.2
 - Small bugs fixed
