@@ -1,4 +1,4 @@
-""" planets.py: Model of the solar system (6 planets)
+""" planets.py: Model of the solar system (6 planets + 1 comet)
 
 __author__ = 'Yichen Nie'
 __pkuid__ = '1800011703'
@@ -99,11 +99,8 @@ planet_list = [sun, mercury, venus, earth,
                mars, jupiter, saturn, halley]
 
 
-
-
-
 def coor(x, time):
-    
+
     def xi_function(xi):
         xi = float(xi)
         return x[0]**(3/2) * (xi - x[1]*math.sin(xi)) / 10 - time
@@ -113,20 +110,22 @@ def coor(x, time):
     coor_y = x[0] * (1 - x[1]**2)**0.5 * math.sin(xi_root)
     return [coor_x, coor_y]
 
+
 def draworbital(planet, x, i):
 
     # move to the orbital
     if i in range(1, 9):
         planet.ht()
         planet.goto(coor(x, i)[0],
-            coor(x, i)[1])
+                    coor(x, i)[1])
+
     else:
         planet.st()
         # color
         planet.pencolor(x[6] / 255, x[7] / 255,
                         x[8] / 255)
         planet.fillcolor(x[6] / 255, x[7] / 255,
-                        x[8] / 255)
+                         x[8] / 255)
 
         # size
         planet.turtlesize(x[3])
@@ -171,10 +170,11 @@ def main():
     while True:
         draworbital(turtles[j % 8],
                     planet_list[j % 8], j)
-
         if j % 10 == 0:
             text_turtle.color("Black")
-            text_turtle.write(len(str(int(j-10)*0.040511*365.2422))*"█" + " days",
+            text_turtle.write(len(str(
+                                      int(j-10)*0.040511*365.2422
+                                      ))*"█" + " days",
                               move=False, align="left",
                               font=("Arial", 24, "normal"))
             text_turtle.color("White")
