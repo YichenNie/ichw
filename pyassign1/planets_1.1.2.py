@@ -7,7 +7,7 @@ __email__ = '1800011703@pku.edu.cn'
 
 
 # data from wikipedia
-# solar
+# sun
 # radius = 109
 
 # mercury
