@@ -1,4 +1,4 @@
-# Model of planets in solar system
+# 2D Model of planets in solar system
 ## version 1.0
 - Six planets and the sun
 - Elliptical orbits
