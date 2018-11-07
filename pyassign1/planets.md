@@ -6,3 +6,4 @@
 ## version 1.1
 - Consists with Kepler's laws
 - Halley Comet
+- **Note: module scipy needed**
