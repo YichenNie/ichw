@@ -1,4 +1,4 @@
-""" planets.py: Model of the solar system (6 planets + 1 comet)
+""" planets.py: Model of the solar system (6 planets + 1 comet + 1 asteroid)
 
 __author__ = 'Yichen Nie'
 __pkuid__ = '1800011703'
