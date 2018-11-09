@@ -1,14 +1,21 @@
-# 2D Model of planets in solar system
+# 太阳系行星运转2D模型
 ## version 1.0
-- Six planets and the sun
-- Elliptical orbits
-- In pep8 format
+- 太阳+6颗行星
+- 椭圆轨道
+- pep8格式
 ## version 1.1
-- Consists with Kepler's laws
-- Halley's Comet
-- **Note: module scipy needed**
+- 符合开普勒三大定律
+- 哈雷彗星
+  - 验证椭圆轨道近日点和远日点速度差异
+- **Note: 需要scipy模组**
 ## version 1.1.2
-- Small bugs fixed
+- 修复了一些小bug
+## version 1.1.3
+- 更新了算法
+## version 1.2
+- 升交点黄经 + 近心点辐角
+- 小行星3200（Phaethon）
+  - 验证椭圆轨道近日点和远日点速度差异
 
 
 ## references
@@ -21,4 +28,4 @@
   - [Mars](https://en.wikipedia.org/wiki/Mars)
   - [Jupiter](https://en.wikipedia.org/wiki/Jupiter)
   - [Saturn](https://en.wikipedia.org/wiki/Saturn)
-2. Jin, S. N.; Ma, Y. L. *Analytical Mechanics*
+2. 金尚年，马永利 *理论力学*， 74-79.
