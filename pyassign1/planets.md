@@ -18,6 +18,9 @@
   - 验证椭圆轨道近日点和远日点速度差异
 ## version 1.2.1
 - 一点小小的修改
+## version 1.3
+- 增加木星的卫星Megaclite
+
 
 
 ## references
@@ -31,4 +34,5 @@
   - [Jupiter](https://en.wikipedia.org/wiki/Jupiter)
   - [Saturn](https://en.wikipedia.org/wiki/Saturn)
   - [Phaethon](https://en.wikipedia.org/wiki/3200_Phaethon)
+  - [Megaclite](https://en.wikipedia.org/wiki/Megaclite)
 2. 金尚年，马永利 *理论力学*， 74-79.
