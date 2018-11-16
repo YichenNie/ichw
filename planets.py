@@ -85,6 +85,7 @@ def mooncoor(x, time):
 
     def xxi_function(xxi):
         xxi = float(xxi)
+        # 0.0009551 = mass_sun / mass_jupiter
         return x[0]**(3/2) / 0.0009551**0.5 * (xxi - x[1]*math.sin(xxi)) / speed - time
 
     xxi_root = fsolve(xxi_function, 10)
