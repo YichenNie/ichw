@@ -1,4 +1,4 @@
-""" planets.py: Model of the solar system (6 planets + 1 comet + 1 asteroid)
+""" planets.py: Model of the solar system (6 planets + 1 comet + 1 asteroid + 1 satellite)
 __author__ = 'Yichen Nie'
 __pkuid__ = '1800011703'
 __email__ = '1800011703@pku.edu.cn'
