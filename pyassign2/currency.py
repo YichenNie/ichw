@@ -239,7 +239,7 @@ def test_all():
 def main():
 
     print('input the currency on hand, the currency to \
-            convert to and the amount of currency to convert')
+convert to and the amount of currency to convert')
     print('use a space to separate each parameter')
     print('input "TYPE" to print supported currenct list')
     print('input "TEST" to test the module')
