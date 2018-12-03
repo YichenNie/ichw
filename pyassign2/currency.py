@@ -286,7 +286,7 @@ convert to and the amount of currency to convert')
             print(exchange(a, b, c))
 
         # 非以上特殊输入，判断输入没有错误后，获取数据
-        elif valid(data):
+        elif valid(data) == True:
             print(exchange(data[0], data[1], data[2]))
 
         # 否则不合法输入
