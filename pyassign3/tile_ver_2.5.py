@@ -201,7 +201,7 @@ def main():
 
     sols = []
 
-    c = time.time()  # 终止计时
+    c = time.time()  # 开始计时
 
     bati = basetile(m, n, a, b)
 
