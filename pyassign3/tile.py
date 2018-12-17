@@ -4,6 +4,10 @@ import turtle
 
 
 '''
+__author__ = "Yichen Nie"
+__pkuid__  = "1800011703"
+__email__  = "1800011703@pku.edu.cn"
+
 tile.py 铺砖问题
 用a*b的砖铺满m*n的墙面，给出所有的铺法
 并选择其中一种画出示意图
