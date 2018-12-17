@@ -130,7 +130,7 @@ def tile(m, n, a, b, empty, occ=[]):
                 tile(m, n, a, b, empty1, occ1)  # 递归
 
 
-# 绘制骨架部分
+# 绘制m*n墙面骨架部分
 def skeleton(m, n):
     a = turtle.Turtle()
     a.speed(0)
@@ -174,7 +174,7 @@ def draw(m, n, a, b, sol):
     c.speed(0)
     c.pu()
     for i in sol:
-        c.goto(coor(m, n, i[0]))  # 需要绘制砖块的左下角
+        c.goto(coor(m, n, i[0]))  # 从砖块的左下角开始绘制
         c.pd()
         if (i[-1] - i[0]) % m == a - 1:  # 砖为横向
             c.forward(a * 20)  # 绘制矩形
